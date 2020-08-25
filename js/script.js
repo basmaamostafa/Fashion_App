@@ -3,7 +3,7 @@ function card_animation() {
     let btn=document.getElementById('btn');
     let p=document.getElementById('text_form');
 
-        document.body.style.backgroundImage="url('../img/bg2.jpg')";
+        document.body.style.backgroundImage="url('img/bg2.jpg')";
         card.className="card2";
         document.getElementById("title").innerHTML="log In";
         p.parentNode.removeChild(p); 
@@ -58,7 +58,7 @@ function card_animatio2(){
     let btnlink= document.createElement("a");
     let txt= document.createTextNode("Done");
 
-    document.body.style.backgroundImage="url('../img/bg3.jpg')";
+    document.body.style.backgroundImage="url('img/bg3.jpg')";
     cardd.className="card3";
     deltit.parentNode.removeChild(deltit);
     delform.parentNode.removeChild(delform);
