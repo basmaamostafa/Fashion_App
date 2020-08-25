@@ -180,3 +180,29 @@ nav{
 .navbar-toggler{
     background-color: transparent!important;
 }
+.fa-arrow-left{
+    padding: 15px;
+}
+.min-cardbg{
+    background-color: #F0F0F0;
+    width: 130px;
+    padding: 15px 10px 0;
+    margin-left: 20px; 
+    margin-top: -80px;
+    z-index: 1;
+    position: absolute;
+}
+.min-card{
+    margin-bottom: 20px;
+}
+.min-cardtitle {
+    font-family: Adobe Garamond Pro;
+    text-transform: capitalize;
+    color: #000;
+}
+.min-cardtit{
+    font-family: Alegreya;
+    color: 000;
+    margin-top: -8px;
+    font-size: 20px;
+}
