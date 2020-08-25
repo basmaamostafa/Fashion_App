@@ -11,7 +11,26 @@
 </head>
 <body id="img">
 <div id="container">
-    <h1 class="logo" style="color: #000;">infinity</h1>
+    
+    <nav class="navbar navbar-light ">
+        <a class="navbar-brand" href="#">    
+            <h1 class="logo" style="color: #000;">infinity</h1>
+        </a>
+          <span class="navbar-toggler-icon"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></span>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
     <div class="row">
         <h2 class="page-title col-3">trend</h2>
         <hr class="col-7">
@@ -20,21 +39,40 @@
         <p class="subtitle col-8">Spring summer 2020</p>
         <p class="subview col-3">View all</p>
     </div>
-    <div class="row" id="Trends">
-        <div class="imgcard ">
-            <img src="../img/WomenTrend.png" alt="" class="women">
-            <div class="cardbg">
-                <h4 class="cardtitle ">Women's</h4>
-                <p class="cardtit ">Trending collection</p>
-            </div>  
-        </div>
-        <div class="imgcard men ">
-            <img src="../img/menTrend.png" alt="" class="women">
-            <div class="cardbg">
-                <h4 class="cardtitle ">Men's</h4>
-                <p class="cardtit ">Trending collection</p>
-            </div>  
-        </div>
+    <div class="" id="Trends">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item  active">
+                <img src="../img/WomenTrend.png" alt="" class="women imgcard">
+                <div class="cardbg">
+                    <h4 class="cardtitle ">Women's</h4>
+                    <p class="cardtit ">Trending collection</p>
+                </div>
+            </div>
+              <div class="carousel-item ">
+                <img src="../img/menTrend.png" alt="" class="women imgcard">
+                <div class="cardbg">
+                    <h4 class="cardtitle ">Men's</h4>
+                    <p class="cardtit ">Trending collection</p>
+                </div>            
+                </div>
+                <div class="carousel-item imgcard ">
+                    <img src="../img/WomenTrend.png" alt="" class="women">
+                    <div class="cardbg">
+                        <h4 class="cardtitle ">Women's</h4>
+                        <p class="cardtit ">Trending collection</p>
+                    </div>
+                </div>
+                  <div class="carousel-item imgcard ">
+                    <img src="../img/menTrend.png" alt="" class="women">
+                    <div class="cardbg">
+                        <h4 class="cardtitle ">Men's</h4>
+                        <p class="cardtit ">Trending collection</p>
+                    </div>            
+                    </div>
+                
+            </div>
+          </div>
     </div>
         <div class="row" style="margin-top: 20px;">
             <hr class="col-6">

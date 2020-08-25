@@ -171,3 +171,12 @@ hr{
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.5);
 }
+.carousel-item{
+    widows: 0px!important;
+}
+nav{
+    background-color: transparent;
+}
+.navbar-toggler{
+    background-color: transparent!important;
+}
