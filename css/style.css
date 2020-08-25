@@ -1,8 +1,6 @@
-body{
-    background-image: url(../img/bg1.jpg);
+#img{
     border: none!important;
     transition: ease-in 2s;
-
 }
 .logo{
     color: #fff;
@@ -104,4 +102,72 @@ label{
     background-color: #fff;
     text-decoration: none!important;
     box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, .3)!important;   
+}
+.page-title{
+    margin-left: 15px;
+    font-family: Adobe Garamond Pro;
+    text-transform: capitalize;
+}
+hr{
+    border: 1px #000 solid!important;
+}
+.subtitle{
+    margin-left: 15px;
+    margin-top: -10px;
+    font-family: Alegreya;
+}
+.subview{
+    margin-left: 15px;
+    margin-top: -10px;
+    font-family: Alegreya;
+}
+.women{
+    margin: 30px;
+}
+.imgcard{
+    z-index: 0;
+    position: relative;
+}
+.cardbg{
+    background-color: #000;
+    width: 200px;
+    padding: 15px 20px 0;
+    margin-left: 20px; 
+    margin-top: -80px;
+    z-index: 1;
+    position: absolute;
+}
+.cardtitle{
+    font-family: Adobe Garamond Pro;
+    text-transform: capitalize;
+    color: #fff;
+}
+.cardtit{
+    font-family: Alegreya;
+    color: #fff;
+    margin-top: -8px;
+}
+.item{
+    background-color: #7070702f;
+    padding:  10px;
+    margin: 20px 15px;
+}
+.itemimg{
+    margin: 5px 5px 5px 20px;
+}
+.itemtit{
+    font-family: Adobe Garamond Pro;
+    margin-top: 10px;
+}
+.itemp{
+    font-family: Alegreya;
+    margin: -5px 0 5px;
+}
+.itemprice{
+    font-family: Adobe Garamond Pro;
+
+}
+.sale{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
 }
